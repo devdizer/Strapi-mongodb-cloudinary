@@ -1,0 +1,26 @@
+{
+    "name": "Strapi",
+    "description": "Strapi Heroku deployment with mongoddb & cloudinary upload plugin",
+    "keywords": ["strapi", "heroku", "mongodb", "cloudinary"],
+    "repository": "https://github.com/devdizer/Strapi-mongodb-cloudinary",
+    "logo": "https://avatars2.githubusercontent.com/u/67114662?s=460&u=57a297f7c5f2da0c4ffa60970ddd03fa9847fda6&v=4",
+    "env": {
+        "DATABASE_URI": {
+            "description": "Add your connection string to MongodDB Atlas",
+            "required": true
+          },
+      "CLOUDINARY_NAME": {
+        "description": "The 'Cloud name' of your Cloudinary account",
+        "required": true
+      },
+      "CLOUDINARY_KEY": {
+        "description": "The 'API Key' of your Cloudinary account",
+        "required": true
+      },
+      "CLOUDINARY_SECRET": {
+        "description": "The 'API Secret' of your Cloudinary account",
+        "required": true
+      }
+    }
+    
+  }

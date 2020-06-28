@@ -31,6 +31,16 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "category": {
+      "unique": true,
+      "model": "category",
+      "via": "articles"
+    },
+    "users": {
+      "via": "articles",
+      "plugin": "users-permissions",
+      "collection": "user"
     }
   }
 }
